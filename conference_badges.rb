@@ -13,7 +13,7 @@ end
 def assign_rooms(speakers)
   
   speakers.map |name|
-  "Hello #{attendees}! You'll be assigned to room #{rooms}!"
+    "Hello #{attendees}! You'll be assigned to room #{rooms}!"
   rooms = []
   array.each_with_index |rooms|
     rooms << rooms + 1
