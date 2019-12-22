@@ -13,10 +13,11 @@ end
 def assign_rooms(speakers)
   
   speakers.map |name|
+  "Hello #{attendees}! You'll be assigned to room #{rooms}!"
   rooms = []
   array.each_with_index |rooms|
     rooms << rooms + 1
     until rooms == 7
   end
-  print "Hello #{attendees}! You'll be assigned to room #{rooms}!"
+  print 
 end  
