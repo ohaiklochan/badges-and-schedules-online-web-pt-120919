@@ -15,5 +15,7 @@ def assign_rooms
   rooms = []
   array.each_with_index |rooms|
     rooms << rooms + 1
-    until 
+    until rooms == 7
+  end
+  rooms
 end  
