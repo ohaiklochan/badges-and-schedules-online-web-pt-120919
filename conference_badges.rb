@@ -5,7 +5,7 @@ end
   
 def batch_badge_creator
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  speakers.each do |badge|
+  array.each do |speakers|
     print "Hello, my name is (speakers)."
   end
   speakers
