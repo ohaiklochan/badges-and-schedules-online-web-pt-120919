@@ -3,9 +3,9 @@ def badge_maker(name)
 end
   
 def batch_badge_creator
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  array.each do |speakers|
-    return "Hello, my name is #{speakers}."
+  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  array.each do |badges|
+    return "Hello, my name is #{attendees}."
   end
   speakers
 end
@@ -16,5 +16,5 @@ def assign_rooms
     rooms << rooms + 1
     until rooms == 7
   end
-  print "Hello #{speaker}! You'll be assigned to room #{rooms}!"
+  print "Hello #{attendees}! You'll be assigned to room #{rooms}!"
 end  
