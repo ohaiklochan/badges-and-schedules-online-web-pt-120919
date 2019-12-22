@@ -11,6 +11,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
+  
+  speakers.map |name|
   rooms = []
   array.each_with_index |rooms|
     rooms << rooms + 1
