@@ -15,3 +15,8 @@ def assign_rooms(speakers)
     "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
 end  
+
+def printer(badges)
+  return (batch_badge_creator(names))
+  return (assign_rooms(speakers))
+end
