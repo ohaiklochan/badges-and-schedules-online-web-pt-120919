@@ -10,7 +10,7 @@ def batch_badge_creator(names)
   return array
 end
 
-def assign_rooms
+def assign_rooms(speakers)
   rooms = []
   array.each_with_index |rooms|
     rooms << rooms + 1
