@@ -17,5 +17,7 @@ def assign_rooms
     rooms << rooms + 1
     until rooms == 7
   end
-  rooms
+  print "Hello #{speaker}! "
 end  
+
+def printer
