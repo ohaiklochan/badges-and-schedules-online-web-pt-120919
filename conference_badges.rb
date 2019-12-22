@@ -12,11 +12,6 @@ end
 
 def assign_rooms(speakers)
   speakers.map.with_index |name|
-    "Hello #{name}! You'll be assigned to room #{rooms}!"
-  rooms = []
-  array.each_with_index |rooms|
-    rooms << rooms + 1
-    until rooms == 7
+    "Hello #{name}! You'll be assigned to room #{index}!"
   end
-  print 
 end  
