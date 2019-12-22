@@ -8,4 +8,5 @@ def batch_badge_creator
   speakers.each do |badge|
     print "Hello, my name is #{speakers}."
   end
+  speakers
 end
