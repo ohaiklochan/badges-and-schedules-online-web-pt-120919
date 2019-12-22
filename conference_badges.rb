@@ -13,5 +13,6 @@ end
 
 def assign_rooms
   rooms = []
-  arrach.each_with_index
-  
+  array.each_with_index |rooms|
+    rooms << rooms + 1
+end  
